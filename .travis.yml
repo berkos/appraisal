@@ -1,7 +1,7 @@
 sudo: false
 
 before_install:
-  - gem update --system 2.4.5.1  
+  - gem update --system 2.7.3  
   - gem install bundler --version 1.16.1
 
 rvm:
