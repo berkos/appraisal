@@ -1,7 +1,7 @@
 sudo: false
 
 before_install:
-  - gem update --system 2.7.3  
+  - rvm install rubygems 1.8.24 --force  
   - gem install bundler --version 1.16.1
 
 rvm:
